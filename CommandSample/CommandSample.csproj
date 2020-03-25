@@ -44,10 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Command.cs" />
+    <Compile Include="CommandQueue.cs" />
     <Compile Include="DisplayHelpClass.cs" />
     <Compile Include="ExitCommand.cs" />
     <Compile Include="FunctionButton.cs" />
     <Compile Include="HelpCommand.cs" />
+    <Compile Include="Invoker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemExitClass.cs" />
