@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 namespace CommandSample
 {
     /// <summary>
-    /// 命令模式例子
+    /// 抽象命令类
     /// </summary>
-    class Program
+   abstract class Command
     {
-        static void Main(string[] args)
-        {
-        }
+        public abstract void Execute();
     }
 }
