@@ -16,13 +16,14 @@ namespace CommandSample
         //为功能键注入命令
         public Command Command
         {
-            get; set;
+            get { return command; }
+            set { command = value; }
         }
 
         //发送请求的方法
         public void Click()
         {
-            Console.WriteLine("单价功能键");
+            Console.WriteLine("单击功能键");
             command.Execute();
         }
 

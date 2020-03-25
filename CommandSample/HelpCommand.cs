@@ -20,7 +20,7 @@ namespace CommandSample
         //命令执行方法，将调用请求接收者的业务方法
         public override void Execute()
         {
-            throw new NotImplementedException();
+            hcObj.Display();
         }
     }
 }
